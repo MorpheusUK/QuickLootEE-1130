@@ -1,0 +1,12 @@
+﻿diff --git a/CMakeLists.txt b/CMakeLists.txt
+index f67571b..f9c6fe1 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -64,6 +64,7 @@ target_compile_definitions(
+ 		"$<$<BOOL:${SKSE_SUPPORT_XBYAK}>:SKSE_SUPPORT_XBYAK=1>"
+ 		"$<$<BOOL:${ENABLE_SKYRIM_SE}>:ENABLE_SKYRIM_SE=1>"
+ 		"$<$<BOOL:${ENABLE_SKYRIM_AE}>:ENABLE_SKYRIM_AE=1>"
++		"$<$<BOOL:${ENABLE_SKYRIM_AE}>:SKYRIM_SUPPORT_AE=1>"
+ 		"$<$<BOOL:${ENABLE_SKYRIM_VR}>:ENABLE_SKYRIM_VR=1>"
+ 		HAS_SKYRIM_MULTI_TARGETING=1
+ )
