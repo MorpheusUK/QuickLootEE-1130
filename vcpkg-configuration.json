@@ -1,6 +1,5 @@
-
 {
-	"registries": [
+  "registries": [
     {
       "kind": "git",
       "repository": "https://gitlab.com/colorglass/vcpkg-colorglass",
@@ -18,10 +17,13 @@
         "commonlibsse-ng",
         "commonlibsse-ng-ae",
         "commonlibsse-ng-se",
-        "commonlibsse-ng-vr",
+        "commonlib-ng-vr",
         "commonlibsse-ng-flatrim"
       ]
     }
-	]
+  ],
+  "overlay-ports": [
+    "cmake/ports/commonlibsse-ng-flatrim"
+  ]
 }
 

@@ -9,7 +9,7 @@
         }
       },
       "errors": {
-        "deprecated": true
+        "deprecated": false
       },
       "hidden": true,
       "name": "cmake-dev",
@@ -52,7 +52,7 @@
         "value": "x64"
       },
       "cacheVariables": {
-        "CMAKE_CXX_FLAGS": "/EHsc /MP /W4 /WX"
+        "CMAKE_CXX_FLAGS": "/EHsc /MP /W4 /WX /wd4996"
       },
       "generator": "Visual Studio 17 2022",
       "inherits": [
