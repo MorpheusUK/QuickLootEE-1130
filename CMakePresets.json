@@ -6,6 +6,10 @@
         "CMAKE_BUILD_TYPE": {
           "type": "STRING",
           "value": "Release"
+        },
+        "CMAKE_CONFIGURATION_TYPES": {
+          "type": "STRING",
+          "value": "Release"
         }
       },
       "errors": {
